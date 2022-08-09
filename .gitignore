@@ -1,32 +1,15 @@
-# Prerequisites
-*.d
+#include <stdio.h>
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+int main(void) {
+    int n,x,i;
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+    scanf("%d",&x);
+    x = 100 - x;
+    printf("%d\n",x);
+        
+    }
+	return 0;
+}
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
